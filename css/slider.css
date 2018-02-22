@@ -81,7 +81,7 @@ li.inslide{
 
 }
 .slider_dots li.active{
-    background: red;
+    background: #193f85;
     border-radius: 50%;
     width: 17px;
     height: 17px;
