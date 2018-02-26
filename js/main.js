@@ -166,3 +166,47 @@
 
 }(jQuery));
 
+
+/*RIGHT sitbar*/
+window.onload = function () {
+    document.getElementById('arclick_right').onclick = function () {
+        openbox_right('rightsidebar', this);
+        return false;
+    };
+};
+
+// RIGHT
+function openbox_right(id, arclick_right) {
+    var div = document.getElementById(id);
+
+    if (div.style.right == '-141px') {
+        div.style.right = '0';
+        div.style.opacity = 1;
+        /* нет прозрачности */
+        arclick_right.style.background = 'url(img/sidebar-right/img/arrow_l-r.png)';
+    }
+    else {
+        div.style.right = '-141px';
+        div.style.opacity = 0.5;
+        /* полупрозрачность */
+        arclick_right.style.background = 'url(img/sidebar-right/img/arrow_r-l.png)';
+    }
+}
+
+// END
+// Исчезание бокового меню при маленьком разрешении
+// TODO
+// Убирание к низу при ширине 1024. Исчезание вовсе при ширине 600
+/*
+function testBlock() {
+    var obj = document.getElementById('contaner');
+    var	size = document.body.offsetWidth;
+    if (size < 1024) {
+        obj.style.bottom = '56px';
+        obj.style.height = '197px';
+        obj.style.width = '100%';
+    }
+}
+*/
+/*end RIGHT sitbar*/
+
