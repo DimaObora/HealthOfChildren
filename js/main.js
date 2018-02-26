@@ -219,7 +219,7 @@ $(document).ready(function() {
     });
 
     // Collapse Panel
-    $("#close").click(function(){
+    $(".close").click(function(){
         $("div#sliding_panel").slideUp("slow");
     });
 

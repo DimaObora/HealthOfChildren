@@ -386,7 +386,7 @@ button:focus {
     display: none;
     position: fixed;
     bottom: 18px;
-    right: 15px;
+    right: 5em;
 }
 
 .back-to-top i {
@@ -1895,3 +1895,16 @@ iframe {
     bottom: 8em;
     color: #000;
 }
+.x{
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    background: #bbb5b5;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+@media (max-width: 991px){
+
+}
+
