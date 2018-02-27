@@ -1907,6 +1907,14 @@ iframe {
 .carousel-inner img {
     width: 100%;
 }
+.coll-back{
+    position: fixed;
+    bottom: 5em;
+    left: 2em;
+}
+#call{
+    width: 55%;
+}
 
 
 
