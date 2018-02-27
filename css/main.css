@@ -1904,7 +1904,9 @@ iframe {
     font-size: 22px;
 }
 
-@media (max-width: 991px){
-
+.carousel-inner img {
+    width: 100%;
 }
+
+
 

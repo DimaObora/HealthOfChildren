@@ -30,6 +30,9 @@
     font-size: 14px;
     line-height: 20px;
   }
+  #panel {
+    margin-top: 85px;
+  }
 }
 
 /* mobile or only mobile */
@@ -81,4 +84,21 @@
   .copyright {
     float: left;
   }
+  #sliding_panel{
+    overflow-y: scroll;
+    height: 700px!important;
+  }
+  .clearfix{
+    max-width: 613px!important;
+  }
+  #panel {
+    margin-top: 85px;
+  }
+}
+@media (max-width: 575px){
+  #sliding_panel{
+    overflow-y: scroll;
+    height: 300px!important;
+  }
+
 }
