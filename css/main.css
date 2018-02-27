@@ -983,9 +983,10 @@ button:focus {
 11. Testimonial Section Style
  ========================================================================== */
 #testimonial {
-    background: url(../img/testimonial-bg.jpg) fixed no-repeat;
-    background-size: cover;
-    color: #fff;
+    background: url(../img/bg.jpg)  no-repeat;
+    background-size: 108%;
+    background-position: -3em -6em;
+    color: #000;
     overflow: hidden;
     position: relative;
 }
@@ -1890,12 +1891,14 @@ iframe {
     margin-top: -10px;
 
 }
-.block-1{
-    background: ghostwhite ;
+
+.block-1 {
+    background: ghostwhite;
     bottom: 8em;
     color: #000;
 }
-.x{
+
+.x {
     position: absolute;
     top: 1em;
     right: 2em;
@@ -1907,13 +1910,146 @@ iframe {
 .carousel-inner img {
     width: 100%;
 }
-.coll-back{
+
+.coll-back {
     position: fixed;
     bottom: 5em;
     left: 2em;
 }
-#call{
+
+#call {
     width: 55%;
+}
+
+.header-phone:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+    background: url(../img/header-phone-icon.png);
+}
+
+.top-panel__message {
+    padding: 2px 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.top-panel__message {
+    padding: 2px 10px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .top-panel__message {
+        width: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .top-panel__message {
+        padding: 12px 10px;
+    }
+}
+
+@media (min-width: 1441px) {
+    .top-panel__message {
+        padding: 12px 18px;
+    }
+}
+
+.top-panel__message a {
+    font-weight: 700;
+    margin-left: 2px;
+}
+
+@media (min-width: 768px) {
+    .top-panel__message {
+        text-align: left;
+    }
+}
+
+.top-panel__message {
+    padding: 0;
+    margin-top: 0.6em;
+}
+
+.header-phone span {
+    font-weight: normal;
+}
+
+.header-phone {
+    margin: 0;
+    font-weight: 700;
+}
+
+.header-phone {
+    font-size: 20px;
+}
+
+@media (min-width: 1441px) {
+     .header-phone {
+        font-size: 24px;
+    }
+}
+#team{
+    background: #eff5f7;
+}
+.block-15{
+    padding: 80px 20px;
+    background-color: transparent;
+    background-image: radial-gradient(at center center,#368bb0 0%,#2c7aa8 100%);
+    transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s;
+    position: relative;
+}
+.block-16{
+    padding: 50px 20px;
+    background-color: transparent;
+    background-image: radial-gradient(at center center,#91c732 0%,#6da44e 100%);
+    transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s;
+    position: relative;
+}
+.section-form{
+    padding: 0;
+}
+#contactForm {
+    width: 50%;
+    left: 5%;
+    position: absolute;
+}
+.fon{
+    background-image: url("../img/section-bg2.jpg");
+    background-position: 0px -11em;
+    background-size: 100%;
+    opacity: 0.06;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.fon-1{
+    background-image: url("../img/bg-3.jpg");
+    background-position: 0px -11em;
+    background-size: 100%;
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.contact-us{
+    float: right;
+}
+input[type="text"]::-webkit-input-placeholder  {
+    color: #fff; /* Цвет подсказывающего текста */
+}
+textarea::-moz-placeholder{
+    color: #fff; /* Цвет подсказывающего текста */
 }
 
 
