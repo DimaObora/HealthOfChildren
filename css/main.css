@@ -2018,7 +2018,7 @@ iframe {
 #contactForm {
     width: 50%;
     left: 5%;
-    position: absolute;
+    position: relative;
 }
 .fon{
     background-image: url("../img/section-bg2.jpg");
@@ -2034,6 +2034,7 @@ iframe {
 .fon-1{
     background-image: url("../img/bg-3.jpg");
     background-position: 0px -11em;
+    background-repeat: no-repeat;
     background-size: 100%;
     opacity: 0.2;
     height: 100%;

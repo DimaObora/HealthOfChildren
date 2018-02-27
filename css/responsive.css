@@ -115,12 +115,28 @@
   .back-to-top {
     bottom: 1em;
     right: 2em;
+
   }
   .coll-back{
     bottom: 1em;
     left: 1em;
+    z-index: 999999;
   }
   #call {
     width: 45%;
+
+  }
+  #contactForm {
+    width: 100%;
+    left: 0;
+  }
+  .fon-1 {
+
+    background-position: -14em -6em;
+    background-repeat: no-repeat;
+    background-size: 214%;
+  }
+  .contact-us {
+    float:none;
   }
 }
