@@ -94,6 +94,9 @@
   #panel {
     margin-top: 85px;
   }
+  .tab ul.login {
+    right: 46px;
+  }
 }
 @media (max-width: 575px){
   #sliding_panel{
