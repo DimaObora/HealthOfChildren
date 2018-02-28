@@ -579,10 +579,11 @@ button:focus {
         position: absolute;
         padding: 15px;
         top: 0;
+        width: 78%;
     }
 
     .navbar-brand img {
-        width: 70%;
+        width: 80%;
     }
 
     #mobile-menu {

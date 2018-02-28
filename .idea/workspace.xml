@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="106cde92-5adb-4d68-b0e2-bd7a32bf0ef9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/form-process.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/form-process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,11 +53,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="1767" column="22" lean-forward="true" selection-start-line="1767" selection-start-column="22" selection-end-line="1767" selection-end-column="22" />
+                <state relative-caret-position="328">
+                  <caret line="584" column="16" selection-start-line="584" selection-start-column="16" selection-end-line="584" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -72,7 +71,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="form-process.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="form-process.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/php/form-process.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="68">
@@ -152,9 +151,9 @@
         <option value="$PROJECT_DIR$/css/ggg.css" />
         <option value="$PROJECT_DIR$/sliding_panel/slide.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/php/form-process.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -168,8 +167,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="357" />
-    <option name="y" value="-19" />
+    <option name="x" value="-1078" />
+    <option name="y" value="-26" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -211,15 +210,15 @@
       <workItem from="1519285926574" duration="22694000" />
       <workItem from="1519633466398" duration="15341000" />
       <workItem from="1519710317384" duration="23008000" />
-      <workItem from="1519796937500" duration="4824000" />
+      <workItem from="1519796937500" duration="5536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65867000" />
+    <option name="totallyTimeSpent" value="66579000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.09791667" />
@@ -550,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sliding_panel/slide.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -584,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="1767" column="22" lean-forward="true" selection-start-line="1767" selection-start-column="22" selection-end-line="1767" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -602,6 +587,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sliding_panel/slide.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="584" column="16" selection-start-line="584" selection-start-column="16" selection-end-line="584" selection-end-column="16" />
         </state>
       </provider>
     </entry>
