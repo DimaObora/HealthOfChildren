@@ -2053,5 +2053,36 @@ textarea::-moz-placeholder{
     color: #fff; /* Цвет подсказывающего текста */
 }
 
+.read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #666;
+    font-size: .9em;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: .25em;
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+}
+.read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+}
+.read-more-state {
+    display: none;
+}
+.read-more-trigger{
+    padding: 2px 20px;
+    border: solid 1px #61d2b4;
+}.read-more-trigger:hover{
+    color: #fff;
+    background: #61d2b4;
+}
 
 
