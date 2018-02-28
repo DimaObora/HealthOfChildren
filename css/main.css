@@ -1778,9 +1778,13 @@ iframe {
     }
 }
 
-@media (max-height: 768px) and (max-width: 1024px) {
+@media  (max-width: 1024px) {
     .contaner {
         top: 92%;
+    }
+}@media (max-height: 768px) {
+    .contaner {
+        top: 88%;
     }
 }
 

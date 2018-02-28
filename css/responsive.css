@@ -103,6 +103,11 @@
   .tab ul.login {
     right: 46px;
   }
+  .coll-back{
+    bottom: 4em;
+    left: 1em;
+    z-index: 999999;
+  }
 }
 @media (max-width: 575px){
   #sliding_panel{
