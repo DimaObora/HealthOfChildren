@@ -1,12 +1,46 @@
 /* only small desktops */
 /* tablets */
 /* only small tablets */
-@media (max-width: 1024px){
-  .back-to-top {
-    bottom: 5em;
-    right: 5em;
+@media (max-width: 1366px) {
+  #testimonial {
+    background-size: 133%;
+    background-position: -11em -3em;
+  }
+  .fon-1 {
+    background-position: -12em -11em;
+    background-size: 129%;
+
   }
 }
+
+  @media (max-width: 1280px){
+  .fon-1 {
+    background-position: -16em -11em;
+    background-size: 139%;
+  }
+  #testimonial {
+    background-size: 134%;
+    background-position: -8em -3em;
+
+  }
+}
+
+  @media (max-width: 1024px) {
+    .contaner {
+      top: 94%;
+    }
+
+    .back-to-top {
+      bottom: 5em;
+      right: 5em;
+    }
+
+    .fon-1 {
+      background-position: -23em -9em;
+      background-size: 173%;
+
+    }
+  }
   @media (min-width: 768px) and (max-width: 991px) {
   #hero-area .contents h1 {
     font-size: 28px;
@@ -42,7 +76,20 @@
 }
 
 /* mobile or only mobile */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  .contaner {
+    top: 95%;
+  }
+  #testimonial {
+    background-position: 0em -1em;
+  }
+  .fon-1 {
+    background-position: -16em 0em;
+    background-size: 177%;
+  }
+  .navbar-brand img {
+    width: 47%;
+  }
   .section-header .section-title {
     font-size: 20px;
   }

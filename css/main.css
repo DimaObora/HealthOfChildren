@@ -1779,10 +1779,7 @@ iframe {
     }
 }
 
-@media  (max-width: 1024px) {
-    .contaner {
-        top: 92%;
-    }
+
 }@media (max-height: 768px) {
     .contaner {
         top: 88%;
@@ -2052,6 +2049,7 @@ iframe {
 }
 .contact-us{
     float: right;
+    position: relative;
 }
 input[type="text"]::-webkit-input-placeholder  {
     color: #fff; /* Цвет подсказывающего текста */
