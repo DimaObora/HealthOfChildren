@@ -1202,7 +1202,6 @@ button:focus {
 }
 
 #contact {
-    background: #343a40;
     color: #fff;
     position: relative;
 }
@@ -1687,7 +1686,7 @@ iframe {
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
     opacity: 0.5; /* Ð¿Ñ€Ð¾Ð·Ñ€Ð°Ñ‡Ð½Ð¾ÑÑ‚ÑŒ */
-    font-size: 13;
+    font-size: 13px;
     overflow-y: auto;
     z-index: 999999;
     display: block;
@@ -1708,7 +1707,7 @@ iframe {
 .contaner p {
     margin: 22px 0 12px 56px; /* ÑÐ²ÐµÑ€Ñ…Ñƒ ÑÐ¿Ñ€Ð°Ð²Ð° ÑÐ½Ð¸Ð·Ñƒ ÑÐ»ÐµÐ²Ð°*/
     font-weight: bold;
-    font-size: 13;
+    font-size: 13px;
     color: white;
 }
 
@@ -1780,7 +1779,7 @@ iframe {
 }
 
 
-}@media (max-height: 768px) {
+@media (max-height: 768px) {
     .contaner {
         top: 88%;
     }
@@ -2050,6 +2049,7 @@ iframe {
 .contact-us{
     float: right;
     position: relative;
+    top: 10%;
 }
 input[type="text"]::-webkit-input-placeholder  {
     color: #fff; /* Цвет подсказывающего текста */
@@ -2092,4 +2092,17 @@ textarea::-moz-placeholder{
 .doctor-hover:hover{
     box-shadow:0px 0px 23px 0px rgba(0,0,0,0.86);
 }
+.nav-link{
+    color: #fff;
+}
+#myTab{
+    font-size: 24px;
+}
+.tab-content li{
+    font-size: 20px;
+    text-align: left;
+    padding: 1% 0;
+}
+
+
 
