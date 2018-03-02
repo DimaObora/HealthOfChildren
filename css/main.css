@@ -2047,11 +2047,14 @@ iframe {
     position: absolute;
 }
 .contact-us{
-    float: right;
+    float: left;
     position: relative;
     z-index: 99;
-    background: #ffffffba;
+    background-image: radial-gradient(at center center,#368bb0 0%,#2c7aa8 100%);
     padding: 5px 05px 0;
+}
+.contact-us a{
+    color: #fff;
 }
 input[type="text"]::-webkit-input-placeholder  {
     color: #fff; /* Цвет подсказывающего текста */
@@ -2118,12 +2121,19 @@ textarea::-moz-placeholder{
  .city{
      position: absolute;
      z-index: 999;
-     background:#ffffffba;
+     background-image: radial-gradient(at center center,#368bb0 0%,#2c7aa8 100%);
      padding: 45px;
-     color: #000;
+     color: #fff;
+     top: 14%;
+     width: 26%;
+     height: 100%;
  }
 .ymaps-2-1-56-float-button, .ymaps-2-1-56-listbox, .ymaps-2-1-56-controls__control_toolbar, .ymaps-2-1-56-controls__control{
     display: none!important;
+}
+.notpad{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 
