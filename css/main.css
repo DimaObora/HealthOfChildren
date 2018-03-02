@@ -2103,6 +2103,17 @@ textarea::-moz-placeholder{
     text-align: left;
     padding: 1% 0;
 }
+.read-more-wrap li{
+    padding: 5px 0;
+}
+.read-more-wrap li:before{
+    content: "\2714";
+    padding-right: 2%;
+}
+.read-more-wrap{
+    margin-top: 6%;
+}
+
 
 
 
