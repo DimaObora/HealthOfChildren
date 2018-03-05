@@ -1,9 +1,21 @@
 /* only small desktops */
 /* tablets */
 /* only small tablets */
-@media (max-width: 1366px){
-
+@media (max-width: 1765px){
+  .city-and-pfone {
+    width: 52%;
+  }
 }
+@media (max-width: 1702px){
+  .city-and-pfone {
+    width: 60%;
+  }
+}@media (max-width: 1687px){
+  .city-and-pfone {
+    width: 70%;
+  }
+}
+
   @media (max-width: 1366px) {
   #testimonial {
     background-size: 133%;
@@ -24,13 +36,24 @@
   #testimonial {
     background-size: 134%;
     background-position: -8em -3em;
-
   }
+    .city-and-pfone {
+      width: 80%;
+    }
+    #contact {
+      width: 80%;
+    }
 }
 
   @media (max-width: 1024px) {
     .contaner {
       top: 94%;
+    }
+    .city-and-pfone {
+      width: 100%;
+    }
+    #contact {
+      width: 90%;
     }
 
     .back-to-top {
@@ -44,6 +67,45 @@
 
     }
   }
+@media screen and (max-width: 991px) {
+  .navbar-header {
+    width: 100%;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    padding: 15px;
+    top: 0;
+    width: 78%;
+  }
+
+  .navbar-brand img {
+    width: 34%;
+  }
+
+  #mobile-menu {
+    display: none;
+  }
+
+  .slicknav_menu {
+    display: block;
+  }
+
+  .slicknav_nav .active a {
+    background: #61D2B4;
+    color: #fff;
+  }
+
+  .slicknav_nav a:hover, .slicknav_nav .active {
+    color: #61D2B4;
+    background: #f8f9fa;
+  }
+
+  .slicknav_nav .dropdown li a.active {
+    background: #f8f9fa;
+    color: #61D2B4;
+  }
+}
   @media (min-width: 768px) and (max-width: 991px) {
   #hero-area .contents h1 {
     font-size: 28px;
