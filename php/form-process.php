@@ -1,67 +1,29 @@
 <?php
-
-$errorMSG = "";
-
-// NAME
-if (empty($_POST["name"])) {
-    $errorMSG = "Name is required ";
+$sendto   = "web-originals@yandex.ru";
+$usermail = $_POST['email'];
+$username = $_POST['name'];
+$userphone = $_POST['phone'];
+$content  = nl2br($_POST['msg']);
+// Формирование заголовка письма
+$subject  = "Новое сообщение";
+$headers  = "From: " . strip_tags($usermail) . "\r\n";
+$headers .= "Reply-To: ". strip_tags($usermail) . "\r\n";
+$headers .= "MIME-Version: 1.0\r\n";
+$headers .= "Content-Type: text/html;charset=utf-8 \r\n";
+// Формирование тела письма
+$msg  = "<html><body style='font-family:Arial,sans-serif;'>";
+$msg .= "<h2 style='font-weight:bold;border-bottom:1px dotted #ccc;'>Новое сообщение </h2>\r\n";
+$msg .= "<p><strong>Имя:</strong> ".$username."</p>\r\n";
+$msg .= "<p><strong>Номер телефона:</strong> ".$userphone."</p>\r\n";
+$msg .= "<p><strong>Почта:</strong> ".$usermail."</p>\r\n";
+$msg .= "<p><strong>Сообщение:</strong> ".$content."</p>\r\n";
+$msg .= "</body></html>";
+// отправка сообщения
+send("web-originals.ru"."\r\nИмя:".$username."\r\nНомер телефона:".$userphone."\r\nПочта:".$usermail."\r\nСообщение:".$content);
+if(@mail($sendto, $subject, $msg, $headers)) {
+    echo "true";
 } else {
-    $name = $_POST["name"];
-}
-
-// EMAIL
-if (empty($_POST["email"])) {
-    $errorMSG .= "Email is required ";
-} else {
-    $email = $_POST["email"];
-}
-
-// MSG SUBJECT
-if (empty($_POST["msg_subject"])) {
-    $errorMSG .= "Subject is required ";
-} else {
-    $msg_subject = $_POST["msg_subject"];
-}
-
-
-// MESSAGE
-if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
-} else {
-    $message = $_POST["message"];
-}
-
-
-$EmailTo = "Web-lily@yandex.ru";
-$Subject = "Письмо с Санталя";
-
-// prepare email body text
-$Body = "";
-$Body .= "Name: ";
-$Body .= $name;
-$Body .= "\n";
-$Body .= "Email: ";
-$Body .= $email;
-$Body .= "\n";
-$Body .= "Subject: ";
-$Body .= $msg_subject;
-$Body .= "\n";
-$Body .= "Message: ";
-$Body .= $message;
-$Body .= "\n";
-
-// send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$email);
-
-// redirect to success page
-if ($success && $errorMSG == ""){
-   echo "success";
-}else{
-    if($errorMSG == ""){
-        echo "Something went wrong :(";
-    } else {
-        echo $errorMSG;
-    }
+    echo "false";
 }
 
 ?>

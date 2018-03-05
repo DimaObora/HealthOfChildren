@@ -2002,7 +2002,7 @@ iframe {
     background: #eff5f7;
 }
 .block-15{
-    padding: 80px 20px;
+    padding: 50px 20px;
     background-color: transparent;
     background-image: radial-gradient(at center center,#368bb0 0%,#2c7aa8 100%);
     transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s;
@@ -2018,7 +2018,7 @@ iframe {
 .section-form{
     padding: 0;
 }
-#contactForm {
+#contact {
     width: 50%;
     left: 5%;
     position: relative;
@@ -2125,6 +2125,25 @@ textarea::-moz-placeholder{
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
-
+#contact input, #contact textarea {
+    margin: 1em 0;
+    height: 3em;
+    background: #f0f8ff00;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    color: #fff;
+}
+#contact input::placeholder{
+    color: white;
+    font-size: 18px;
+}
+#contact textarea::placeholder{
+    color: white;
+    font-size: 18px;
+}
+.pos-rel {
+    position: relative;
+}
 
 

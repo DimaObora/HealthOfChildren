@@ -31,22 +31,22 @@
     border: none;
     font-weight: 600;
     text-shadow:
-            -0   -1px 1px #000000,
-            0   -1px 1px #000000,
-            -0    1px 1px #000000,
-            0    1px 1px #000000,
-            -1px -0   1px #000000,
-            1px -0   1px #000000,
-            -1px  0   1px #000000,
-            1px  0   1px #000000,
-            -1px -1px 1px #000000,
-            1px -1px 1px #000000,
-            -1px  1px 1px #000000,
-            1px  1px 1px #000000,
-            -1px -1px 1px #000000,
-            1px -1px 1px #000000,
-            -1px  1px 1px #000000,
-            1px  1px 1px #000000;
+            -0   -1px 0   #000000,
+            0   -1px 0   #000000,
+            -0    1px 0   #000000,
+            0    1px 0   #000000,
+            -1px -0   0   #000000,
+            1px -0   0   #000000,
+            -1px  0   0   #000000,
+            1px  0   0   #000000,
+            -1px -1px 0   #000000,
+            1px -1px 0   #000000,
+            -1px  1px 0   #000000,
+            1px  1px 0   #000000,
+            -1px -1px 0   #000000,
+            1px -1px 0   #000000,
+            -1px  1px 0   #000000,
+            1px  1px 0   #000000;
 }
 .tabs_controls-item:focus, .tabs_controls-item:active{
     color: black;
@@ -55,13 +55,18 @@
 }
 
 .city {
-    position: absolute;
-    bottom: 15%;
-    left: 32%;
-
+    position: relative;
+    float: right;
+    margin-top: 2em;
 }
 .city li {
     font-size: 20px;
+}
+.city-and-pfone{
+    width: 50%;
+    float: right;
+    right: 5%;
+    position: relative;
 }
 
 
