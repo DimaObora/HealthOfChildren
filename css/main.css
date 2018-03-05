@@ -2024,6 +2024,8 @@ textarea::-moz-placeholder{
 }
 
 .read-more-trigger {
+    position: absolute;
+    bottom: 1em;
     cursor: pointer;
     display: inline-block;
     padding: 0 .5em;
@@ -2032,6 +2034,7 @@ textarea::-moz-placeholder{
     line-height: 2;
     border: 1px solid #ddd;
     border-radius: .25em;
+    margin-top: 2%;
 }
 .read-more-state:checked ~ .read-more-wrap .read-more-target {
     opacity: 1;
@@ -2077,6 +2080,7 @@ textarea::-moz-placeholder{
 }
 .read-more-wrap{
     margin-top: 6%;
+    margin-bottom: 16%;
 }
 
 
