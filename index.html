@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="sliding_panel/slide.css">
+    <link rel="stylesheet" href="css/tab.css">
+
     <link rel="stylesheet" href="css/responsive.css">
 
 </head>
@@ -139,9 +141,9 @@
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#testimonial">Отзывы</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#video">Видео</a>
-                    </li>
+                    <!--<li class="nav-item">-->
+                        <!--<a class="nav-link page-scroll" href="#video">Видео</a>-->
+                    <!--</li>-->
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#contact">Контакты</a>
                     </li>
@@ -869,95 +871,46 @@
 <!-- Features Section Start -->
 <section id="features" class="section-form" data-stellar-background-ratio="0.2">
     <div class="container-fluid">
-        <div class="row">
-            <!--<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 block-15">-->
-                <!--<div class="fon-1">-->
-
-                <!--</div>-->
-
-            <!--</div>-->
-            <!--<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 block-16">-->
-                <!--<div class="fon">-->
-
-                <!--</div>-->
-                <!--<div class="contact-block  ">-->
-                    <!--<form id="contactForm">-->
-                        <!--<div class="row">-->
-                            <!--<div class="col-md-12">-->
-                                <!--<div class="form-group">-->
-                                    <!--<input type="text" class="form-control" id="name" name="name"-->
-                                           <!--placeholder="Ваше имя" required data-error="Please enter your name">-->
-                                    <!--<div class="help-block with-errors"></div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col-md-12">-->
-                                <!--<div class="form-group">-->
-                                    <!--<input type="text" placeholder="Ваш Email" id="email" class="form-control"-->
-                                           <!--name="name" required data-error="Please enter your email">-->
-                                    <!--<div class="help-block with-errors"></div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col-md-12">-->
-                                <!--<div class="form-group">-->
-                                        <!--<textarea class="form-control" id="message" placeholder="Ваше сообщение"-->
-                                                  <!--rows="8"-->
-                                                  <!--data-error="Write your message" required></textarea>-->
-                                    <!--<div class="help-block with-errors"></div>-->
-                                <!--</div>-->
-                                <!--<div class="submit-button text-center">-->
-                                    <!--<button class="btn btn-common" id="submit" type="submit">Отправить</button>-->
-                                    <!--<div id="msgSubmit" class="h3 text-center hidden"></div>-->
-                                    <!--<div class="clearfix"></div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</form>-->
-                <!--</div>-->
-            <!--</div>-->
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 notpad">
-
-                    <div class="contact-us text-center">
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                   aria-controls="home" aria-selected="true">Краснодар</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                                   aria-controls="profile" aria-selected="false">Геленджик</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                                   aria-controls="contact" aria-selected="false">Новосибирск</a>
-                            </li>
-                        </ul>
+        <div class=" tabs">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 block-15">
+                    <div class="fon-1">
 
                     </div>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active home" id="home" role="tabpanel"
-                             aria-labelledby="home-tab">
+
+                    <div class="contact-us text-center">
+                    <ul class="tabs_controls nav nav-tabs ">
+                        <li class="tabs_controls-item  active nav-item" data-class="first">
+                            <a href="#" class="tabs_controls-link nav-tabs">Краснодар</a>
+                        </li>
+                        <li class="tabs_controls-item  " data-class="second">
+                            <a href="#" class="tabs_controls-link nav-tabs">Геленджик</a>
+                        </li>
+                        <li class="tabs_controls-item " data-class="third">
+                            <a href="#" class="tabs_controls-link nav-tabs">Новосибирск</a>
+                        </li>
+                    </ul>
+                        </div>
+                    <ul class="tabs_list tabs_list_first">
+                        <li class=" tabs_item tabs_item_first active">
                             <ul class="city">
-                                <li class="fz-30">Краснодар, <br> ул.Янтарная 37</li>
+                                <li class="fz-30">Краснодар,  ул.Янтарная 37</li>
                                 <li>Индекс: 350087</li>
                                 <li>8 (861) 201-13-59</li>
                                 <li>8 (988) 358-10-72</li>
                                 <li>santal4@0370.ru</li>
                             </ul>
-                            <script type="text/javascript" charset="utf-8" async
-                                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9b4d959f5cb6f456cd9b29445e7abf9e669c4c8ad738fae6b1cce6a436e8c427&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-                        </div>
-                        <div class="tab-pane fade profile" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        </li>
+                        <li class="tabs_item tabs_item_second">
                             <ul class="city">
-                                <li class="fz-30">Геленджик <br>Колхозная ул. 11,</li>
+                                <li class="fz-30">Геленджик Колхозная ул. 11,</li>
                                 <li>Индекс: 353475</li>
                                 <li>8 (861-41) 5-15-47</li>
                                 <li>+7 988 521 03 33</li>
                                 <li>sg@0370.ru</li>
                             </ul>
-                            <script type="text/javascript" charset="utf-8" async
-                                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A112e1027834ec5989e177e1e091d54626a8748b16c73bc570fe07597e948ee1b&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-                        </div>
-                        <div class="tab-pane fade contact" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        </li>
+                        <li class="tabs_item tabs_item_third">
                             <ul class="city">
                                 <li class="fz-30">Новосибирск, Левый берег,<br> ул. Петухова, 16/1</li>
                                 <li>Индекс: 630088</li>
@@ -965,12 +918,66 @@
                                 <li>santal@0354.ru</li>
 
                             </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 block-16">
+                    <div class="fon">
+
+                    </div>
+                    <div class="contact-block  ">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="name"
+                                               placeholder="Ваше имя" required data-error="Please enter your name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Ваш Email" id="email" class="form-control"
+                                               name="name" required data-error="Please enter your email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="message" placeholder="Ваше сообщение"
+                                                  rows="8"
+                                                  data-error="Write your message" required></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="submit-button text-center">
+                                        <button class="btn btn-common" id="submit" type="submit">Отправить</button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 notpad tabs_list tabs_list_first">
+
+                        <div class="tabs_item tabs_item_first active" >
+                            <script type="text/javascript" charset="utf-8" async
+                                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9b4d959f5cb6f456cd9b29445e7abf9e669c4c8ad738fae6b1cce6a436e8c427&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+                        <div class="tabs_item tabs_item_second">
+                            <script type="text/javascript" charset="utf-8" async
+                                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A112e1027834ec5989e177e1e091d54626a8748b16c73bc570fe07597e948ee1b&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+                        <div class="tabs_item tabs_item_third" >
                             <script type="text/javascript" charset="utf-8" async
                                     src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A26cf964c2fd43a457a1700118398c241819419ec1d7914f8ee26fb0f210209c3&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
                         </div>
-                    </div>
 
+                </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -1203,5 +1210,6 @@
 <script src="js/form-validator.min.js"></script>
 <script src="js/contact-form-script.js"></script>
 <script src="js/main.js"></script>
+<script src="js/tab.js"></script>
 </body>
 </html>

@@ -2,10 +2,7 @@
 /* tablets */
 /* only small tablets */
 @media (max-width: 1366px){
-  .city {
-    width: 34.3%;
-    height: 100%;
-  }
+
 }
   @media (max-width: 1366px) {
   #testimonial {
